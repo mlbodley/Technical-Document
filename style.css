@@ -1,0 +1,42 @@
+#main-doc {
+  height: 100%;
+  width: 100%;
+}
+
+#navbar {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  background-color: grey;
+}
+
+#technical-doc-writing {
+  width: 75%;
+  background-color: white;
+  margin-left: 350px;
+}
+
+header {
+  padding: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a {
+  padding: 100px;
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 10 px;
+}
+
+@media only screen and (max-width: 600px) {
+  #technical-doc-writing {
+    background-color: blue;
+  }
+}
